@@ -1,0 +1,667 @@
+2026-05-27 20:11:47,521 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-05-27 20:11:47,583 INFO o.a.j.JMeter: Loading user properties from: C:\JMeterInstallation\apache-jmeter-5.6.3\bin\user.properties
+2026-05-27 20:11:47,583 INFO o.a.j.JMeter: Loading system properties from: C:\JMeterInstallation\apache-jmeter-5.6.3\bin\system.properties
+2026-05-27 20:11:47,611 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-05-27 20:11:47,615 INFO o.a.j.JMeter: Version 5.6.3
+2026-05-27 20:11:47,615 INFO o.a.j.JMeter: java.version=17.0.19
+2026-05-27 20:11:47,615 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-05-27 20:11:47,615 INFO o.a.j.JMeter: os.name=Windows 11
+2026-05-27 20:11:47,615 INFO o.a.j.JMeter: os.arch=amd64
+2026-05-27 20:11:47,621 INFO o.a.j.JMeter: os.version=10.0
+2026-05-27 20:11:47,621 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-05-27 20:11:47,621 INFO o.a.j.JMeter: java.awt.headless=true
+2026-05-27 20:11:47,621 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-05-27 20:11:47,621 INFO o.a.j.JMeter: Available Processors =12
+2026-05-27 20:11:47,649 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-05-27 20:11:47,649 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-05-27 20:11:47,649 INFO o.a.j.JMeter: JMeterHome=C:\JMeterInstallation\apache-jmeter-5.6.3
+2026-05-27 20:11:47,649 INFO o.a.j.JMeter: user.dir  =D:\Jmeter_inter
+2026-05-27 20:11:47,650 INFO o.a.j.JMeter: PWD       =D:\Jmeter_inter
+2026-05-27 20:11:47,651 INFO o.a.j.JMeter: IP: 10.149.4.232 Name: Ashlesha FullName: Ashlesha
+2026-05-27 20:11:47,728 INFO o.a.j.s.FileServer: Default base='D:\Jmeter_inter'
+2026-05-27 20:11:47,737 INFO o.a.j.s.FileServer: Set new base='D:\Jmeter_inter'
+2026-05-27 20:11:48,360 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-05-27 20:11:48,458 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-05-27 20:11:48,471 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-05-27 20:11:48,492 INFO o.a.j.s.SaveService: Loading file: D:\Jmeter_inter\JpetStore Application - 100 users.jmx
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-05-27 20:11:48,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-05-27 20:11:48,791 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-05-27 20:11:48,862 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-05-27 20:11:48,863 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-05-27 20:11:48,863 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-05-27 20:11:48,883 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-05-27 20:11:48,883 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-05-27 20:11:49,159 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:49,172 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:49,186 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:49,527 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:49,556 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-names-templater-1.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:49,575 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter.pack-listener-1.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,228 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,242 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,249 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,263 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,317 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,320 INFO o.a.j.r.ClassFinder: Will scan jar C:\JMeterInstallation\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-05-27 20:11:51,383 INFO o.a.j.JMeter: Running test (1779892911383)
+2026-05-27 20:11:51,412 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : JpetStore Application - 200 users
+2026-05-27 20:11:51,412 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group JpetStore Application - 200 users.
+2026-05-27 20:11:51,414 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-05-27 20:11:51,414 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=200 ramp-up=1 delayedStart=false
+2026-05-27 20:11:51,437 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-3
+2026-05-27 20:11:51,436 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-2
+2026-05-27 20:11:51,437 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-1
+2026-05-27 20:11:51,439 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-5
+2026-05-27 20:11:51,439 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-4
+2026-05-27 20:11:51,446 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-6
+2026-05-27 20:11:51,452 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-7
+2026-05-27 20:11:51,458 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-8
+2026-05-27 20:11:51,462 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-9
+2026-05-27 20:11:51,464 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-10
+2026-05-27 20:11:51,468 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-11
+2026-05-27 20:11:51,474 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-12
+2026-05-27 20:11:51,479 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-13
+2026-05-27 20:11:51,489 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-15
+2026-05-27 20:11:51,491 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-14
+2026-05-27 20:11:51,495 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-16
+2026-05-27 20:11:51,500 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-17
+2026-05-27 20:11:51,506 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-18
+2026-05-27 20:11:51,510 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-19
+2026-05-27 20:11:51,513 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-20
+2026-05-27 20:11:51,517 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-21
+2026-05-27 20:11:51,524 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-22
+2026-05-27 20:11:51,529 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-23
+2026-05-27 20:11:51,533 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-24
+2026-05-27 20:11:51,537 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-25
+2026-05-27 20:11:51,544 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-26
+2026-05-27 20:11:51,546 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-27
+2026-05-27 20:11:51,552 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-28
+2026-05-27 20:11:51,557 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-29
+2026-05-27 20:11:51,562 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-30
+2026-05-27 20:11:51,568 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-31
+2026-05-27 20:11:51,573 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-32
+2026-05-27 20:11:51,577 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-33
+2026-05-27 20:11:51,582 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-34
+2026-05-27 20:11:51,589 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-35
+2026-05-27 20:11:51,603 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-37
+2026-05-27 20:11:51,603 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-36
+2026-05-27 20:11:51,604 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-38
+2026-05-27 20:11:51,609 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-39
+2026-05-27 20:11:51,612 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-40
+2026-05-27 20:11:51,616 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-41
+2026-05-27 20:11:51,622 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-42
+2026-05-27 20:11:51,627 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-43
+2026-05-27 20:11:51,628 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-05-27 20:11:51,629 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-05-27 20:11:51,632 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-44
+2026-05-27 20:11:51,636 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-45
+2026-05-27 20:11:51,644 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-46
+2026-05-27 20:11:51,647 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-47
+2026-05-27 20:11:51,651 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-48
+2026-05-27 20:11:51,657 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-49
+2026-05-27 20:11:51,663 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-50
+2026-05-27 20:11:51,668 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-51
+2026-05-27 20:11:51,674 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-52
+2026-05-27 20:11:51,677 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-53
+2026-05-27 20:11:51,682 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-54
+2026-05-27 20:11:51,688 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-55
+2026-05-27 20:11:51,691 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-56
+2026-05-27 20:11:51,698 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-57
+2026-05-27 20:11:51,703 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-58
+2026-05-27 20:11:51,707 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-59
+2026-05-27 20:11:51,712 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-60
+2026-05-27 20:11:51,719 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-61
+2026-05-27 20:11:51,722 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-62
+2026-05-27 20:11:51,726 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-63
+2026-05-27 20:11:51,733 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-64
+2026-05-27 20:11:51,736 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-65
+2026-05-27 20:11:51,740 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-66
+2026-05-27 20:11:51,746 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-67
+2026-05-27 20:11:51,751 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-68
+2026-05-27 20:11:51,757 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-69
+2026-05-27 20:11:51,761 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-70
+2026-05-27 20:11:51,766 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-71
+2026-05-27 20:11:51,772 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-72
+2026-05-27 20:11:51,776 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-73
+2026-05-27 20:11:51,782 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-74
+2026-05-27 20:11:51,787 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-75
+2026-05-27 20:11:51,791 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-76
+2026-05-27 20:11:51,799 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-77
+2026-05-27 20:11:51,802 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-78
+2026-05-27 20:11:51,806 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-79
+2026-05-27 20:11:51,814 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-80
+2026-05-27 20:11:51,817 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-81
+2026-05-27 20:11:51,821 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-82
+2026-05-27 20:11:51,828 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-83
+2026-05-27 20:11:51,831 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-84
+2026-05-27 20:11:51,836 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-85
+2026-05-27 20:11:51,842 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-86
+2026-05-27 20:11:51,849 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-87
+2026-05-27 20:11:51,853 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-88
+2026-05-27 20:11:51,856 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-89
+2026-05-27 20:11:51,862 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-90
+2026-05-27 20:11:51,866 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-91
+2026-05-27 20:11:51,873 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-92
+2026-05-27 20:11:51,877 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-93
+2026-05-27 20:11:51,882 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-94
+2026-05-27 20:11:51,886 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-95
+2026-05-27 20:11:51,892 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-96
+2026-05-27 20:11:51,897 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-97
+2026-05-27 20:11:51,902 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-98
+2026-05-27 20:11:51,905 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-99
+2026-05-27 20:11:51,911 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-100
+2026-05-27 20:11:51,916 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-101
+2026-05-27 20:11:51,922 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-102
+2026-05-27 20:11:51,927 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-103
+2026-05-27 20:11:51,931 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-104
+2026-05-27 20:11:51,937 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-105
+2026-05-27 20:11:51,942 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-106
+2026-05-27 20:11:51,946 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-107
+2026-05-27 20:11:51,952 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-108
+2026-05-27 20:11:51,957 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-109
+2026-05-27 20:11:51,961 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-110
+2026-05-27 20:11:51,965 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-111
+2026-05-27 20:11:51,971 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-112
+2026-05-27 20:11:51,976 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-113
+2026-05-27 20:11:51,982 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-114
+2026-05-27 20:11:51,987 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-115
+2026-05-27 20:11:51,992 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-116
+2026-05-27 20:11:51,998 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-117
+2026-05-27 20:11:52,002 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-118
+2026-05-27 20:11:52,006 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-119
+2026-05-27 20:11:52,011 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-120
+2026-05-27 20:11:52,018 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-121
+2026-05-27 20:11:52,022 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-122
+2026-05-27 20:11:52,028 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-123
+2026-05-27 20:11:52,031 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-124
+2026-05-27 20:11:52,036 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-125
+2026-05-27 20:11:52,041 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-126
+2026-05-27 20:11:52,049 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-127
+2026-05-27 20:11:52,052 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-128
+2026-05-27 20:11:52,056 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-129
+2026-05-27 20:11:52,061 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-130
+2026-05-27 20:11:52,066 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-131
+2026-05-27 20:11:52,070 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-132
+2026-05-27 20:11:52,076 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-133
+2026-05-27 20:11:52,082 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-134
+2026-05-27 20:11:52,087 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-135
+2026-05-27 20:11:52,093 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-136
+2026-05-27 20:11:52,096 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-137
+2026-05-27 20:11:52,101 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-138
+2026-05-27 20:11:52,106 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-139
+2026-05-27 20:11:52,112 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-140
+2026-05-27 20:11:52,117 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-141
+2026-05-27 20:11:52,123 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-142
+2026-05-27 20:11:52,128 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-143
+2026-05-27 20:11:52,131 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-144
+2026-05-27 20:11:52,136 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-145
+2026-05-27 20:11:52,142 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-146
+2026-05-27 20:11:52,146 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-147
+2026-05-27 20:11:52,152 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-148
+2026-05-27 20:11:52,156 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-149
+2026-05-27 20:11:52,162 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-150
+2026-05-27 20:11:52,167 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-151
+2026-05-27 20:11:52,173 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-152
+2026-05-27 20:11:52,176 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-153
+2026-05-27 20:11:52,182 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-154
+2026-05-27 20:11:52,187 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-155
+2026-05-27 20:11:52,191 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-156
+2026-05-27 20:11:52,197 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-157
+2026-05-27 20:11:52,202 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-158
+2026-05-27 20:11:52,207 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-159
+2026-05-27 20:11:52,211 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-160
+2026-05-27 20:11:52,216 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-161
+2026-05-27 20:11:52,221 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-162
+2026-05-27 20:11:52,227 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-163
+2026-05-27 20:11:52,232 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-164
+2026-05-27 20:11:52,236 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-165
+2026-05-27 20:11:52,241 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-166
+2026-05-27 20:11:52,246 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-167
+2026-05-27 20:11:52,250 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-168
+2026-05-27 20:11:52,266 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-169
+2026-05-27 20:11:52,269 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-171
+2026-05-27 20:11:52,272 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-170
+2026-05-27 20:11:52,273 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-172
+2026-05-27 20:11:52,276 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-173
+2026-05-27 20:11:52,281 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-174
+2026-05-27 20:11:52,286 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-175
+2026-05-27 20:11:52,292 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-176
+2026-05-27 20:11:52,299 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-177
+2026-05-27 20:11:52,302 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-178
+2026-05-27 20:11:52,306 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-179
+2026-05-27 20:11:52,311 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-180
+2026-05-27 20:11:52,317 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-181
+2026-05-27 20:11:52,321 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-182
+2026-05-27 20:11:52,327 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-183
+2026-05-27 20:11:52,333 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-184
+2026-05-27 20:11:52,337 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-185
+2026-05-27 20:11:52,342 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-186
+2026-05-27 20:11:52,346 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-187
+2026-05-27 20:11:52,351 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-188
+2026-05-27 20:11:52,357 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-189
+2026-05-27 20:11:52,361 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-190
+2026-05-27 20:11:52,367 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-191
+2026-05-27 20:11:52,372 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-192
+2026-05-27 20:11:52,378 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-193
+2026-05-27 20:11:52,382 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-194
+2026-05-27 20:11:52,388 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-195
+2026-05-27 20:11:52,392 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-196
+2026-05-27 20:11:52,399 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-197
+2026-05-27 20:11:52,401 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-198
+2026-05-27 20:11:52,405 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-199
+2026-05-27 20:11:52,412 INFO o.a.j.t.JMeterThread: Thread started: JpetStore Application - 200 users 1-200
+2026-05-27 20:11:54,514 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Ashlesha
+2026-05-27 20:11:54,544 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-05-27 20:11:54,549 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-05-27 20:11:54,549 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-05-27 20:11:54,549 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-05-27 20:11:54,549 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-05-27 20:12:01,560 INFO o.a.j.r.Summariser: summary +    401 in 00:00:10 =   39.4/s Avg:   325 Min:    17 Max:   764 Err:     8 (2.00%) Active: 200 Started: 200 Finished: 0
+2026-05-27 20:12:10,716 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-173
+2026-05-27 20:12:10,716 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-177
+2026-05-27 20:12:10,716 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-173
+2026-05-27 20:12:10,716 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-177
+2026-05-27 20:12:10,717 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-174
+2026-05-27 20:12:10,718 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-174
+2026-05-27 20:12:10,724 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-176
+2026-05-27 20:12:10,725 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-176
+2026-05-27 20:12:10,725 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-171
+2026-05-27 20:12:10,725 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-86
+2026-05-27 20:12:10,725 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-171
+2026-05-27 20:12:10,727 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-86
+2026-05-27 20:12:10,727 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-83
+2026-05-27 20:12:10,727 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-83
+2026-05-27 20:12:10,740 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-169
+2026-05-27 20:12:10,740 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-169
+2026-05-27 20:12:10,766 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-64
+2026-05-27 20:12:10,766 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-64
+2026-05-27 20:12:10,767 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-76
+2026-05-27 20:12:10,767 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-10
+2026-05-27 20:12:10,767 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-76
+2026-05-27 20:12:10,767 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-10
+2026-05-27 20:12:10,950 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-36
+2026-05-27 20:12:10,950 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-185
+2026-05-27 20:12:10,952 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-36
+2026-05-27 20:12:10,950 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-74
+2026-05-27 20:12:10,952 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-106
+2026-05-27 20:12:10,952 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-185
+2026-05-27 20:12:10,953 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-154
+2026-05-27 20:12:10,953 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-74
+2026-05-27 20:12:10,953 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-154
+2026-05-27 20:12:10,953 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-106
+2026-05-27 20:12:10,973 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-175
+2026-05-27 20:12:10,974 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-175
+2026-05-27 20:12:11,030 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-2
+2026-05-27 20:12:11,030 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-2
+2026-05-27 20:12:11,030 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-138
+2026-05-27 20:12:11,030 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-123
+2026-05-27 20:12:11,030 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-116
+2026-05-27 20:12:11,031 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-138
+2026-05-27 20:12:11,031 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-116
+2026-05-27 20:12:11,031 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-123
+2026-05-27 20:12:11,032 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-150
+2026-05-27 20:12:11,032 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-150
+2026-05-27 20:12:11,032 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-37
+2026-05-27 20:12:11,032 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-37
+2026-05-27 20:12:11,036 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-179
+2026-05-27 20:12:11,036 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-179
+2026-05-27 20:12:11,038 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-167
+2026-05-27 20:12:11,038 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-167
+2026-05-27 20:12:11,038 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-8
+2026-05-27 20:12:11,038 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-8
+2026-05-27 20:12:11,044 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-3
+2026-05-27 20:12:11,044 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-136
+2026-05-27 20:12:11,045 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-136
+2026-05-27 20:12:11,044 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-3
+2026-05-27 20:12:11,046 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-67
+2026-05-27 20:12:11,046 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-67
+2026-05-27 20:12:11,048 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-82
+2026-05-27 20:12:11,048 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-87
+2026-05-27 20:12:11,048 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-82
+2026-05-27 20:12:11,049 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-87
+2026-05-27 20:12:11,053 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-93
+2026-05-27 20:12:11,053 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-93
+2026-05-27 20:12:11,056 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-110
+2026-05-27 20:12:11,057 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-110
+2026-05-27 20:12:11,065 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-18
+2026-05-27 20:12:11,067 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-18
+2026-05-27 20:12:11,069 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-40
+2026-05-27 20:12:11,069 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-151
+2026-05-27 20:12:11,069 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-40
+2026-05-27 20:12:11,069 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-151
+2026-05-27 20:12:11,074 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-153
+2026-05-27 20:12:11,074 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-153
+2026-05-27 20:12:11,078 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-19
+2026-05-27 20:12:11,078 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-19
+2026-05-27 20:12:11,082 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-102
+2026-05-27 20:12:11,082 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-65
+2026-05-27 20:12:11,083 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-102
+2026-05-27 20:12:11,083 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-65
+2026-05-27 20:12:11,085 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-20
+2026-05-27 20:12:11,086 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-20
+2026-05-27 20:12:11,086 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-78
+2026-05-27 20:12:11,086 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-100
+2026-05-27 20:12:11,086 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-157
+2026-05-27 20:12:11,086 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-78
+2026-05-27 20:12:11,088 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-100
+2026-05-27 20:12:11,088 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-157
+2026-05-27 20:12:11,090 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-25
+2026-05-27 20:12:11,090 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-25
+2026-05-27 20:12:11,091 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-50
+2026-05-27 20:12:11,091 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-117
+2026-05-27 20:12:11,091 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-50
+2026-05-27 20:12:11,091 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-117
+2026-05-27 20:12:11,093 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-99
+2026-05-27 20:12:11,094 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-94
+2026-05-27 20:12:11,094 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-99
+2026-05-27 20:12:11,094 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-94
+2026-05-27 20:12:11,097 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-111
+2026-05-27 20:12:11,097 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-111
+2026-05-27 20:12:11,099 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-114
+2026-05-27 20:12:11,100 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-114
+2026-05-27 20:12:11,103 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-16
+2026-05-27 20:12:11,103 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-89
+2026-05-27 20:12:11,105 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-16
+2026-05-27 20:12:11,105 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-89
+2026-05-27 20:12:11,106 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-178
+2026-05-27 20:12:11,106 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-178
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-12
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-198
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-42
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-42
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-12
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-125
+2026-05-27 20:12:11,107 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-198
+2026-05-27 20:12:11,108 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-125
+2026-05-27 20:12:11,108 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-15
+2026-05-27 20:12:11,108 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-15
+2026-05-27 20:12:11,110 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-168
+2026-05-27 20:12:11,110 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-58
+2026-05-27 20:12:11,110 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-199
+2026-05-27 20:12:11,111 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-168
+2026-05-27 20:12:11,111 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-21
+2026-05-27 20:12:11,111 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-199
+2026-05-27 20:12:11,111 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-58
+2026-05-27 20:12:11,112 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-21
+2026-05-27 20:12:11,114 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-24
+2026-05-27 20:12:11,114 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-24
+2026-05-27 20:12:11,114 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-103
+2026-05-27 20:12:11,114 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-103
+2026-05-27 20:12:11,117 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-195
+2026-05-27 20:12:11,117 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-195
+2026-05-27 20:12:11,131 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-88
+2026-05-27 20:12:11,131 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-88
+2026-05-27 20:12:11,131 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-122
+2026-05-27 20:12:11,133 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-122
+2026-05-27 20:12:11,139 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-33
+2026-05-27 20:12:11,139 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-33
+2026-05-27 20:12:11,141 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-60
+2026-05-27 20:12:11,141 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-60
+2026-05-27 20:12:11,141 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-68
+2026-05-27 20:12:11,141 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-68
+2026-05-27 20:12:11,144 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-105
+2026-05-27 20:12:11,144 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-105
+2026-05-27 20:12:11,146 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-172
+2026-05-27 20:12:11,146 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-172
+2026-05-27 20:12:11,147 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-192
+2026-05-27 20:12:11,147 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-192
+2026-05-27 20:12:11,151 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-197
+2026-05-27 20:12:11,151 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-197
+2026-05-27 20:12:11,158 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-181
+2026-05-27 20:12:11,158 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-181
+2026-05-27 20:12:11,160 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-121
+2026-05-27 20:12:11,160 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-121
+2026-05-27 20:12:11,162 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-61
+2026-05-27 20:12:11,163 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-61
+2026-05-27 20:12:11,163 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-131
+2026-05-27 20:12:11,163 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-188
+2026-05-27 20:12:11,163 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-131
+2026-05-27 20:12:11,164 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-188
+2026-05-27 20:12:11,165 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-17
+2026-05-27 20:12:11,165 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-17
+2026-05-27 20:12:11,165 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-29
+2026-05-27 20:12:11,165 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-14
+2026-05-27 20:12:11,167 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-29
+2026-05-27 20:12:11,167 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-14
+2026-05-27 20:12:11,180 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-152
+2026-05-27 20:12:11,180 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-152
+2026-05-27 20:12:11,182 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-7
+2026-05-27 20:12:11,182 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-7
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-39
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-1
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-51
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-39
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-51
+2026-05-27 20:12:11,196 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-1
+2026-05-27 20:12:11,207 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-41
+2026-05-27 20:12:11,207 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-41
+2026-05-27 20:12:11,229 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-22
+2026-05-27 20:12:11,229 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-22
+2026-05-27 20:12:11,232 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-48
+2026-05-27 20:12:11,232 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-48
+2026-05-27 20:12:11,242 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-69
+2026-05-27 20:12:11,244 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-69
+2026-05-27 20:12:11,245 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-159
+2026-05-27 20:12:11,246 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-159
+2026-05-27 20:12:11,248 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-166
+2026-05-27 20:12:11,248 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-166
+2026-05-27 20:12:11,250 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-108
+2026-05-27 20:12:11,250 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-108
+2026-05-27 20:12:11,252 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-97
+2026-05-27 20:12:11,252 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-97
+2026-05-27 20:12:11,278 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-155
+2026-05-27 20:12:11,278 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-155
+2026-05-27 20:12:11,279 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-63
+2026-05-27 20:12:11,279 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-63
+2026-05-27 20:12:11,281 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-4
+2026-05-27 20:12:11,281 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-4
+2026-05-27 20:12:11,281 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-189
+2026-05-27 20:12:11,281 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-189
+2026-05-27 20:12:11,336 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-13
+2026-05-27 20:12:11,338 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-13
+2026-05-27 20:12:11,342 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-112
+2026-05-27 20:12:11,342 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-112
+2026-05-27 20:12:11,342 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-90
+2026-05-27 20:12:11,343 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-90
+2026-05-27 20:12:11,342 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-142
+2026-05-27 20:12:11,343 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-142
+2026-05-27 20:12:11,344 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-113
+2026-05-27 20:12:11,344 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-113
+2026-05-27 20:12:11,346 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-31
+2026-05-27 20:12:11,346 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-187
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-31
+2026-05-27 20:12:11,346 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-158
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-38
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-187
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-158
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-127
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-170
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-170
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-38
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-9
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-9
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-163
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-163
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-180
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-127
+2026-05-27 20:12:11,348 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-162
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-91
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-162
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-91
+2026-05-27 20:12:11,349 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-180
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-128
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-128
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-184
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-77
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-184
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-77
+2026-05-27 20:12:11,357 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-194
+2026-05-27 20:12:11,358 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-194
+2026-05-27 20:12:11,358 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-35
+2026-05-27 20:12:11,358 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-35
+2026-05-27 20:12:11,362 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-160
+2026-05-27 20:12:11,362 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-160
+2026-05-27 20:12:11,363 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-30
+2026-05-27 20:12:11,363 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-98
+2026-05-27 20:12:11,364 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-30
+2026-05-27 20:12:11,364 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-98
+2026-05-27 20:12:11,364 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-196
+2026-05-27 20:12:11,364 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-145
+2026-05-27 20:12:11,365 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-196
+2026-05-27 20:12:11,365 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-145
+2026-05-27 20:12:11,366 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-53
+2026-05-27 20:12:11,366 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-126
+2026-05-27 20:12:11,366 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-44
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-126
+2026-05-27 20:12:11,366 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-53
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-44
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-79
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-79
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-191
+2026-05-27 20:12:11,367 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-75
+2026-05-27 20:12:11,368 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-191
+2026-05-27 20:12:11,368 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-75
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-71
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-92
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-118
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-92
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-71
+2026-05-27 20:12:11,370 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-118
+2026-05-27 20:12:11,372 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-193
+2026-05-27 20:12:11,372 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-193
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-43
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-43
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-96
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-96
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-164
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-164
+2026-05-27 20:12:11,378 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-141
+2026-05-27 20:12:11,380 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-141
+2026-05-27 20:12:11,380 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-32
+2026-05-27 20:12:11,380 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-32
+2026-05-27 20:12:11,380 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-139
+2026-05-27 20:12:11,380 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-183
+2026-05-27 20:12:11,381 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-183
+2026-05-27 20:12:11,381 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-139
+2026-05-27 20:12:11,381 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-147
+2026-05-27 20:12:11,383 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-147
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-95
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-85
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-95
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-85
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-46
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-190
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-73
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-46
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-190
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-156
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-72
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-59
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-73
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-59
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-156
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-161
+2026-05-27 20:12:11,384 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-26
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-72
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-161
+2026-05-27 20:12:11,385 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-26
+2026-05-27 20:12:11,386 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-182
+2026-05-27 20:12:11,386 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-182
+2026-05-27 20:12:11,387 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-132
+2026-05-27 20:12:11,387 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-132
+2026-05-27 20:12:11,389 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-120
+2026-05-27 20:12:11,389 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-120
+2026-05-27 20:12:11,389 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-107
+2026-05-27 20:12:11,389 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-70
+2026-05-27 20:12:11,389 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-107
+2026-05-27 20:12:11,390 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-70
+2026-05-27 20:12:11,392 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-124
+2026-05-27 20:12:11,392 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-124
+2026-05-27 20:12:11,392 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-54
+2026-05-27 20:12:11,392 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-137
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-137
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-54
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-11
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-11
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-165
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-165
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-23
+2026-05-27 20:12:11,393 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-23
+2026-05-27 20:12:11,395 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-27
+2026-05-27 20:12:11,395 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-27
+2026-05-27 20:12:11,398 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-115
+2026-05-27 20:12:11,398 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-146
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-115
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-200
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-49
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-146
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-49
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-200
+2026-05-27 20:12:11,400 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-133
+2026-05-27 20:12:11,399 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-119
+2026-05-27 20:12:11,400 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-133
+2026-05-27 20:12:11,400 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-119
+2026-05-27 20:12:11,402 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-149
+2026-05-27 20:12:11,403 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-149
+2026-05-27 20:12:11,402 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-135
+2026-05-27 20:12:11,403 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-84
+2026-05-27 20:12:11,403 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-56
+2026-05-27 20:12:11,403 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-52
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-84
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-135
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-45
+2026-05-27 20:12:11,403 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-130
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-28
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-130
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-28
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-52
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-57
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-56
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-57
+2026-05-27 20:12:11,404 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-45
+2026-05-27 20:12:11,410 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-81
+2026-05-27 20:12:11,411 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-81
+2026-05-27 20:12:11,411 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-134
+2026-05-27 20:12:11,411 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-134
+2026-05-27 20:12:11,413 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-5
+2026-05-27 20:12:11,413 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-5
+2026-05-27 20:12:11,415 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-101
+2026-05-27 20:12:11,415 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-101
+2026-05-27 20:12:11,418 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-109
+2026-05-27 20:12:11,418 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-109
+2026-05-27 20:12:11,420 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-55
+2026-05-27 20:12:11,420 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-55
+2026-05-27 20:12:11,422 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-140
+2026-05-27 20:12:11,422 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-140
+2026-05-27 20:12:11,426 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-104
+2026-05-27 20:12:11,426 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-104
+2026-05-27 20:12:11,430 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-80
+2026-05-27 20:12:11,430 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-80
+2026-05-27 20:12:11,430 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-47
+2026-05-27 20:12:11,430 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-47
+2026-05-27 20:12:11,433 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-186
+2026-05-27 20:12:11,434 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-186
+2026-05-27 20:12:11,436 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-129
+2026-05-27 20:12:11,438 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-129
+2026-05-27 20:12:11,440 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-144
+2026-05-27 20:12:11,442 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-144
+2026-05-27 20:12:11,444 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-66
+2026-05-27 20:12:11,444 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-66
+2026-05-27 20:12:11,446 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-62
+2026-05-27 20:12:11,446 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-62
+2026-05-27 20:12:11,449 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-143
+2026-05-27 20:12:11,451 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-143
+2026-05-27 20:12:11,453 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-6
+2026-05-27 20:12:11,453 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-6
+2026-05-27 20:12:11,457 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-34
+2026-05-27 20:12:11,459 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-34
+2026-05-27 20:12:11,464 INFO o.a.j.t.JMeterThread: Thread is done: JpetStore Application - 200 users 1-148
+2026-05-27 20:12:11,464 INFO o.a.j.t.JMeterThread: Thread finished: JpetStore Application - 200 users 1-148
+2026-05-27 20:12:11,464 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-05-27 20:12:11,467 INFO o.a.j.r.Summariser: summary +    799 in 00:00:10 =   80.6/s Avg:   129 Min:     4 Max:   343 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2026-05-27 20:12:11,468 INFO o.a.j.r.Summariser: summary =   1200 in 00:00:20 =   59.7/s Avg:   194 Min:     4 Max:   764 Err:     8 (0.67%)
